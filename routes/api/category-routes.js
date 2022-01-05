@@ -1,6 +1,5 @@
 const router = require('express').Router();
 const { Category, Product } = require('../../models');
-
 // The `/api/categories` endpoint
 
 router.get('/', (req, res) => {
@@ -18,6 +17,7 @@ router.post('/', (req, res) => {
 });
 
 router.put('/:id', (req, res) => {
+
   // update a category by its `id` value
 });
 
