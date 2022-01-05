@@ -64,7 +64,7 @@ router.get('/:id', async (req, res) => {
 // CREATE new product JSON object for Insomnia
 router.post('/', (req, res) => {
   /* req.body should look like this...
-      * Added quotations - necessary for inserting JSON object in Insomnia
+    * Added quotations necessary for inserting JSON object in Insomnia
     {
       "product_name": "Basketball",
       "price": "200.00",
