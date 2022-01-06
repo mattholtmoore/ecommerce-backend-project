@@ -40,12 +40,12 @@ Start server by running the `nodemon` command.
 ## Links
 [Link to GitHub](https://github.com/mattholtmoore/ecommerce-backend-project)  
 
-[Link to Walkthrough Capture]()
+[Link to Walkthrough Capture](https://watch.screencastify.com/v/az4OjlhprluwfL9LDaSe)
 
 ***
 
 ## Visuals
-![ecommerce-backend-project](images/ecommerce-backend.png "ecommerce-backend-project")
+![ecommerce-backend-project](assets/ecommerce-backend.gif "ecommerce-backend-project")
 
 ***
 

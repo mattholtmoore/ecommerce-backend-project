@@ -9,7 +9,12 @@ router.get('/', async (req, res) => {
     const categoryData = await Category.findAll({
       include: {
         model: Product,
-        attributes: ['id', 'product_name', 'stock', 'price']
+        attributes: [
+          'id',
+          'product_name',
+          'stock',
+          'price'
+        ]
       }
     })
     res.status(200).json(categoryData);
@@ -29,7 +34,12 @@ router.get('/:id', async (req, res) => {
       },
       include: {
         model: Product,
-        attributes: ['id', 'product_name', 'stock', 'price']
+        attributes: [
+          'id',
+          'product_name',
+          'stock',
+          'price'
+        ]
       }
     })
     res.status(200).json(categoryData);
